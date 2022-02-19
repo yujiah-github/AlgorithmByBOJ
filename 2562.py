@@ -1,6 +1,8 @@
-cnt = 0
-while cnt<9:
-     numbers = list(map(int, input().split()))
-     cnt += 1
-print(max(numbers))
-print(min(numbers))
+num_list = []
+
+for i in range(9):
+    N = int(input())
+    num_list.append(N)
+
+print(max(num_list))
+print(num_list.index(max(num_list))+1)
