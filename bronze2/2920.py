@@ -1,14 +1,10 @@
-nums = list(map(int,input().split()))
+nums = list(map(int, input().split()))
+nums_sort = nums.sort()
+nums_reverse = nums_sort.reverse()
 while True:
-    if nums[0]== 1:
-        if nums[1] == 2:
-            print("ascending")
-        else:
-            print("mixed")
-    elif nums[0] == 8:
-        if nums[1] == 7:
-            print("descending")
-        else:
-            print("mixed")
+    if nums == nums_sort:
+        print("ascending")
+    elif nums == nums_reverse:
+        print("descending")
     else:
         print("mixed")
