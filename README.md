@@ -1,4 +1,4 @@
-# **해결한 문제**
+## 해결한 문제
 |티어|번호|제목|
 |:---:|:---:|:---:|
 |**Silver1**|9080|[PC방 요금](<https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/silver1/9080.py>)|
@@ -16,4 +16,4 @@
 
 
 
-# **내가 보려고 정리한 파이썬 문법**
+## 내가 보려고 정리한 파이썬 문법
