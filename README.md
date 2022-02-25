@@ -14,16 +14,16 @@
 ||1546|[최대공약수와 최소공배수](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze1/1546.py)|
 ||2869|[수 정렬하기 2](<https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze1/2869.py>)|
 ||11060|[이항 계수 1](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze1/11060.py)|
-|**Bronze2**|1152|[단어공부](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze1/1157.py)|
-||2562|[최대공약수와 최소공배수](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze1/1546.py)|
-||2577|[수 정렬하기 2](<https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze1/2869.py>)|
-||2675|[이항 계수 1](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze1/11060.py)|
-||2908|[최대공약수와 최소공배수](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze1/1546.py)|
-||2920|[수 정렬하기 2](<https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze1/2869.py>)|
-||3052|[이항 계수 1](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze1/11060.py)|
-||8958|[최대공약수와 최소공배수](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze1/1546.py)|
-||10809|[수 정렬하기 2](<https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze1/2869.py>)|
-||11720|[이항 계수 1](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze1/11060.py)|
+|**Bronze2**|1152|[단어의 갯수](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/1152.py)|
+||2562|[최댓값](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/2562.py)|
+||2577|[숫자의 갯수](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/2577.py)|
+||2675|[문자열 반복](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/2675.py)|
+||2908|[상수](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze1/1546.py)|
+||2920|[음계](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/2920.py)|
+||3052|[나머지](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/3052.py)|
+||8958|[OX퀴즈](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/8958.py)|
+||10809|[알파벳 찾기](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/10809.py)|
+||11720|[숫자의 합](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/11720.py)|
 
 * 자바로 해결한 문제는 추후에 파이썬으로 다시 풀어볼 예정입니다.
 
