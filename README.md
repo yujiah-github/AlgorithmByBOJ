@@ -14,6 +14,6 @@
 ||2869|[수 정렬하기 2](<https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze1/2869.py>)|
 ||11060|[이항 계수 1](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze1/11060.py)|
 
-
+* 자바로 해결한 문제는 추후에 파이썬으로 다시 풀어볼 예정입니다.
 
 ## 내가 보려고 정리한 파이썬 문법
