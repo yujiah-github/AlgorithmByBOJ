@@ -26,6 +26,21 @@
 ||8958|[OX퀴즈](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/8958.py)|
 ||10809|[알파벳 찾기](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/10809.py)|
 ||11720|[숫자의 합](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/11720.py)|
+|**Bronze3**|1085|[단어의 갯수](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/1152.py)|
+||2438|[최댓값](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/2562.py)|
+||2439|[숫자의 갯수](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/2577.py)|
+||2443|[문자열 반복](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/2675.py)|
+||2739|[상수](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze1/1546.py)|
+||2741|[음계](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/2920.py)|
+||2742|[나머지](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/3052.py)|
+||2884|[OX퀴즈](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/8958.py)|
+||4153|[알파벳 찾기](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/10809.py)|
+||10818|[숫자의 합](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/11720.py)|
+||10871|[나머지](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/3052.py)|
+||10950|[OX퀴즈](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/8958.py)|
+||10951|[알파벳 찾기](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/10809.py)|
+||10952|[숫자의 합](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/11720.py)|
+
 
 * 자바로 해결한 문제는 추후에 파이썬으로 다시 풀어볼 예정입니다.
 
