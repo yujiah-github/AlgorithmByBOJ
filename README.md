@@ -40,8 +40,6 @@
 ||10950|[OX퀴즈](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/8958.py)|
 ||10951|[알파벳 찾기](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/10809.py)|
 ||10952|[숫자의 합](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/11720.py)|
-
-
 |**Bronze4**|1008|[A/B](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/1152.py)|
 ||1330|[두 수 비교하기](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/2562.py)|
 ||1712|[손익 분기점](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/2577.py)|
