@@ -42,13 +42,13 @@
 ||10952|[숫자의 합](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/11720.py)|
 
 
-|**Bronze4**|1008|[단어의 갯수](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/1152.py)|
-||1330|[최댓값](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/2562.py)|
-||1712|[숫자의 갯수](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/2577.py)|
-||2588|[문자열 반복](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/2675.py)|
-||2753|[상수](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze1/1546.py)|
-||9498|[음계](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/2920.py)|
-||14681|[나머지](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/3052.py)|
+|**Bronze4**|1008|[A/B](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/1152.py)|
+||1330|[두 수 비교하기](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/2562.py)|
+||1712|[손익 분기점](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/2577.py)|
+||2588|[곱셈](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/2675.py)|
+||2753|[윤년](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze1/1546.py)|
+||9498|[시험성적](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/2920.py)|
+||14681|[사분면 고르기](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze2/3052.py)|
 
 - 자바와 C로 해결한 문제는 추후에 파이썬으로 다시 풀어볼 예정입니다.
 
