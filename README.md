@@ -8,6 +8,7 @@
 |**Silver4**|9012|[괄호](https://github.com/yujiah-github/AlgorithmByBOJ/commit/0b3eb2c9359327fd21cc4f94e23d812af3306a93)|
 ||10773|[제로](<https://github.com/yujiah-github/AlgorithmByBOJ/commit/6db36f633e68fc3ee5d1f39500c33072c4434109>)|
 ||10828|[스택](<https://github.com/yujiah-github/AlgorithmByBOJ/commit/ba8f79b3ea6d8f638c8a934e185494e9f286ab46>)|
+||10828|[큐 2](<https://github.com/yujiah-github/AlgorithmByBOJ/commit/ba8f79b3ea6d8f638c8a934e185494e9f286ab46>)|
 |**Silver5**|1037|[약수](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/silver5/1037.py)|
 ||1934|[최소공배수](<https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/silver5/1934.py>)|
 ||2609|[최대공약수와 최소공배수](<https://github.com/yujiah-github/AlgorithmByBOJ/commit/65882152feb4b1f4658db2e501eacd02e5a04244>)|
