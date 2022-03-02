@@ -15,6 +15,7 @@
 ||2609|[최대공약수와 최소공배수](<https://github.com/yujiah-github/AlgorithmByBOJ/commit/65882152feb4b1f4658db2e501eacd02e5a04244>)|
 ||2751|[수 정렬하기 2](<https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/silver5/2751.py>)|
 |**Bronze1**|1157|[단어공부](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze1/1157.py)|
+||1259|[팰린드롬수](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze1/1546.py)|
 ||1546|[최대공약수와 최소공배수](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze1/1546.py)|
 ||2869|[수 정렬하기 2](<https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze1/2869.py>)|
 ||11060|[이항 계수 1](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze1/11060.py)|
