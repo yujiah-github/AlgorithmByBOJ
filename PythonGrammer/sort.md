@@ -19,6 +19,6 @@
 >array.sort(key=lambda x: len(x))
 1. sort 함수를 사용하여 길이 순으로 정렬
 
->array.sort(key = lambda (x: x[1], -x[2]))
+>array.sort(key = lambda x: (x[1], -x[2]))
 1. sort 함수를 사용하여 x[1]의 오름차순, -x[2]의 내림차순으로 정렬
 
