@@ -5,9 +5,10 @@
 ||11051|[이항 계수2](https://github.com/yujiah-github/AlgorithmByBOJ/commit/421a52157094d424be2c66720b9df76150b91ce4)|
 |**Silver3**|3036|[링](<https://github.com/yujiah-github/AlgorithmByBOJ/commit/ddbb12fbb76bc04ccb4b0da504e35e96bdfbc58d>)|
 ||11399|[ATM](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/silver3/11399.py)|
-|**Silver4**|9012|[괄호](https://github.com/yujiah-github/AlgorithmByBOJ/commit/0b3eb2c9359327fd21cc4f94e23d812af3306a93)|
+|**Silver4**|1978|[소수찾기](https://github.com/yujiah-github/AlgorithmByBOJ/commit/0b3eb2c9359327fd21cc4f94e23d812af3306a93)|
+||9012|[괄호](https://github.com/yujiah-github/AlgorithmByBOJ/commit/0b3eb2c9359327fd21cc4f94e23d812af3306a93)|
 ||10773|[제로](<https://github.com/yujiah-github/AlgorithmByBOJ/commit/6db36f633e68fc3ee5d1f39500c33072c4434109>)|
-||10828|[스택](<https://github.com/yujiah-github/AlgorithmByBOJ/commit/ba8f79b3ea6d8f638c8a934e185494e9f286ab46>)|
+||10828|[스택](https://github.com/yujiah-github/AlgorithmByBOJ/commit/1cc62c5a73b239837c54ef581ed9f75b37eb447b)|
 ||10845|[큐](<https://github.com/yujiah-github/AlgorithmByBOJ/commit/0a476ea0fd6c94002ed7b15655b738576a90fd6f>)|
 ||18258|[큐 2](https://github.com/yujiah-github/AlgorithmByBOJ/commit/59d2ca3396290643943c063cceede9ce1bb0e94e)|
 |**Silver5**|1037|[약수](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/silver5/1037.py)|
