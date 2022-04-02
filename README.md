@@ -20,6 +20,8 @@
 ||2581|[소수](https://github.com/yujiah-github/AlgorithmByBOJ/commit/2e0e6e1211d59c29524811bc5921293d7070f6fd)|
 ||2609|[최대공약수와 최소공배수](<https://github.com/yujiah-github/AlgorithmByBOJ/commit/65882152feb4b1f4658db2e501eacd02e5a04244>)|
 ||2751|[수 정렬하기 2](<https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/silver5/2751.py>)|
+||2822|[점수 계산](https://github.com/yujiah-github/AlgorithmByBOJ/commit/bffe4af4f1551fff1e3f0c21fef20424e9411ec3)|
+
 |**Bronze1**|1157|[단어공부](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze1/1157.py)|
 ||1259|[팰린드롬수](https://github.com/yujiah-github/AlgorithmByBOJ/commit/7ddddc5d723a7abf92b838cb728b5b8f8c9cb508)|
 ||1546|[최대공약수와 최소공배수](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze1/1546.py)|
