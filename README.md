@@ -23,7 +23,7 @@
 ||2822|[점수 계산](https://github.com/yujiah-github/AlgorithmByBOJ/commit/bffe4af4f1551fff1e3f0c21fef20424e9411ec3)|
 ||10814|[나이순 정렬](<https://github.com/yujiah-github/AlgorithmByBOJ/commit/acf76fc936aceee85090256aafaa5b880cb14afa>)|
 ||11004|[K번째 수](https://github.com/yujiah-github/AlgorithmByBOJ/commit/21f76c2aa87d95b48aa91f9c8c1950c76678247a)|
-
+||11536|[K번째 수](https://github.com/yujiah-github/AlgorithmByBOJ/commit/d91f4f9d368c7b667bac7fe124a9ae795c0db0d1)|
 
 |**Bronze1**|1157|[단어공부](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze1/1157.py)|
 ||1259|[팰린드롬수](https://github.com/yujiah-github/AlgorithmByBOJ/commit/7ddddc5d723a7abf92b838cb728b5b8f8c9cb508)|
