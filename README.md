@@ -14,6 +14,7 @@
 ||10866|[덱](https://github.com/yujiah-github/AlgorithmByBOJ/commit/ef75b18da1dea69aec45e95f3e965ac82609aafa)|
 ||18258|[큐 2](https://github.com/yujiah-github/AlgorithmByBOJ/commit/59d2ca3396290643943c063cceede9ce1bb0e94e)|
 |**Silver5**|1037|[약수](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/silver5/1037.py)|
+||1181|[단어정렬](https://github.com/yujiah-github/AlgorithmByBOJ/commit/cb67ceab1debbb40caf162e4f1080e57dd203367)|
 ||1934|[최소공배수](<https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/silver5/1934.py>)|
 ||2609|[최대공약수와 최소공배수](<https://github.com/yujiah-github/AlgorithmByBOJ/commit/65882152feb4b1f4658db2e501eacd02e5a04244>)|
 ||2751|[수 정렬하기 2](<https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/silver5/2751.py>)|
