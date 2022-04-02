@@ -22,7 +22,7 @@
 ||2751|[수 정렬하기 2](<https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/silver5/2751.py>)|
 ||2822|[점수 계산](https://github.com/yujiah-github/AlgorithmByBOJ/commit/bffe4af4f1551fff1e3f0c21fef20424e9411ec3)|
 ||10814|[나이순 정렬](<https://github.com/yujiah-github/AlgorithmByBOJ/commit/acf76fc936aceee85090256aafaa5b880cb14afa>)|
-||2822|[점수 계산](https://github.com/yujiah-github/AlgorithmByBOJ/commit/bffe4af4f1551fff1e3f0c21fef20424e9411ec3)|
+||11004|[K번째 수](https://github.com/yujiah-github/AlgorithmByBOJ/commit/21f76c2aa87d95b48aa91f9c8c1950c76678247a)|
 
 
 |**Bronze1**|1157|[단어공부](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze1/1157.py)|
