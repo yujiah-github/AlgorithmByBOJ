@@ -25,6 +25,7 @@
 ||11004|[K번째 수](https://github.com/yujiah-github/AlgorithmByBOJ/commit/21f76c2aa87d95b48aa91f9c8c1950c76678247a)|
 ||11536|[줄 세우기](https://github.com/yujiah-github/AlgorithmByBOJ/commit/d91f4f9d368c7b667bac7fe124a9ae795c0db0d1)|
 ||11650|[좌표 정렬하기 1](https://github.com/yujiah-github/AlgorithmByBOJ/commit/9a5226d4771aa6a46eb1599d22bb7d73ec400277)|
+||11651|[좌표 정렬하기 2](https://github.com/yujiah-github/AlgorithmByBOJ/commit/21affa83fa7e3db0b3040ad38d2aa4dc1d9ccb6f)|
 
 
 |**Bronze1**|1157|[단어공부](https://github.com/yujiah-github/AlgorithmByBOJ/blob/main/bronze1/1157.py)|
