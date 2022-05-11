@@ -33,17 +33,17 @@
 ```python
     def remove(self, x): #원소를 주고 원소를 가진 노드 삭제
         (prev, curr) == self.__findNode(x)
-        if curr != None:
+        if curr != None: #해당 원소를 가진 노드가 여러 개 있으면, 앞에서 출발해 처음 만나는 노드 삭제
             prev.next - curr.next
             self.__numItmes -= 1
 
     def __findNode(self, x) -> (ListNode, ListNode):
-        prev = self.__head
-        curr = prev.next
+        prev = self.__head #더미 노드
+        curr = prev.next #0번 노드
         while curr != None:
-            if curr.item == x:
+            if curr.item == x: #원소 x를 가진 노드를 찾아 변수 curr가 레퍼런스 하도록 함
                 return(prev.curr)
-            else:
+            else: #바로 앞 노드 레퍼런스
                 prev = curr; curr = curr.next
 
         return(None, none)
@@ -61,17 +61,17 @@
             return None
 ```
 
-#### 연결 리스트에 원소 x 삭제하기(더미 헤드를 두는 버전)
+#### 원소 x가 리스트의 몇 번 원소인지를 알려주기
 
 ```python
     def index(self, x) -> int:
-        curr = self.__head.next
-        for index in range(self.__numItems):
+        curr = self.__head.next #0번 노드: 더미 헤드 다음 노드
+        for index in range(self.__numItems): #x를 찾을 때까지 노드를 훑음
             if curr.item == x:
                 return index
             else:
                 curr = curr.next
-        return -12345
+        return -12345 #사용하지 않는 인덱스
 ```
 
 #### 전체 코드 확인하기(p.122 - p.126)
