@@ -1,16 +1,11 @@
-import sys
-N,K = int((sys.stdin.readline().split()))
-M_list = []
+N, K = map(int, input().split()) 
+coin_lst = list()
 for i in range(N):
-    M = int(sys.stdin.readline())
-    M_list.append(M)
-S_list = []
-while True:
-    for i in range(N):
-        if K / M_list[N-i] == 0:
-            continue
-        else:
-            S = K/M_list[N-i]
-            S_list.append(S)
-            cnt= K - (S * M_list[N-i])
-print(sum(S_list))
+    coin_lst.append(int(input()))
+
+count = 0
+for i in reversed(range(N)):
+    count += K//coin_lst[i] #카운트 값에 K를 동전으로 나눈 몫을 더해줌
+    K = K%coin_lst[i] # K는 동전으로 나눈 나머지로 계속 반복
+
+print(count)
