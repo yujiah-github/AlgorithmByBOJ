@@ -1,0 +1,13 @@
+import sys
+n = int(sys.stdin.readline())
+x = list(map(int, sys.stdin.readline().rstrip().split()))
+numSet = set(x)
+numSort = list(numSet)
+numSort.sort()
+
+numDict = {}
+for i in range(len(numSort)):
+    numDict[numSort[i]] = i
+
+for i in x:
+    print(numDict[i] , end=' ')
