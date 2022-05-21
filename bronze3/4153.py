@@ -1,10 +1,15 @@
-while True :
-    nums = list(map(int, input().split()))
-    if sum(nums) == 0:
-        break  # 세 수가 0이면 break
-    max_num = max(nums)
-    nums.remove(max_num)  # 빗변의 길이는 직각삼각형 세변의 길이중 가장 길다.
-    if nums[0]**2 + nums[1]**2 == max_num**2:
-        print('right')
+#세 수를 입력 받고, 리스트로 만들어 준다.
+#리스트에서 가장 큰 수를 고른다.
+#피타고라스 정리를 활용하여 식을 만들어주고 직각이 맞으면 right, 틀리면 wrong을 반환한다.
+# 000이 입력 되면, 프로그램을 종료한다.
+import sys
+while True:
+    numList = list(map(int, sys.stdin.readline().strip().split()))
+    if sum(numList) == 0:
+        break
+    maxNum = max(numList)
+    numList.remove(maxNum)
+    if numList[0]**2 + numList[1] **2 == maxNum ** 2:
+        print("right")
     else:
-        print('wrong')
+        print("wrong")
