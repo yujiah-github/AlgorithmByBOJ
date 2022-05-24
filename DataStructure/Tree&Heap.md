@@ -199,3 +199,7 @@ for _ in range(numbers):
         except:
             print(0)
 ```
+
+### 여담
+![](https://velog.velcdn.com/images/cil05265/post/ee96d8f1-9a96-4bea-bcc4-e90a19050702/image.png)
+- **골드** 달성했습니다!!
