@@ -73,3 +73,129 @@
     2. 노드 10보다 크므로 **오른쪽** 으로 이동한다. <br>
     3. 노드 5보다 크므로 **오른쪽** 으로 이동한다. <br>
     4. 노드 7보다 크므로 **오른쪽** 으로 이동한다. <br>
+
+### 4. 힙 트리
+![](https://velog.velcdn.com/images/cil05265/post/6bd52189-79f6-4ed4-939e-d0a925f8fd46/image.png)
+
+- 영단어 힙(heap)은 **'무엇인가를 차곡차곡 쌓아올린 더미'** 라는 뜻을 지니고 있다.
+- 힙은 항상 **완전 이진 트리** 의 형태를 띠어야 하고, 부모의 값은 항상 자식(들)의 값보다 크거나 **(Max heap 최대 힙)**, 작아야 **(Min heap 최소 힙)** 하는 규칙이 있다.
+- 따라서 루트노드에는 항상 데이터들 중 가장 큰 값(혹은 가장 작은 값)이 저장되어 있기 때문에, 최댓값(혹은 최솟값)을 O(1)안에 찾을 수 있다.
+- 완전 이진 트리를 사용하는 이유는 **삽입/삭제의 속도** 때문이다.
+
+### 5. 힙의 데이터 처리
+- 데이터의 삽입과 삭제는 모두 **O(logN)** 이 소요된다.
+
+#### 5.1 데이터 삽입
+![](https://velog.velcdn.com/images/cil05265/post/98caeeb6-f577-466f-9ee7-ab433d24e859/image.png)
+
+1. 가장 끝의 자리에 노드를 삽입한다.
+2. 그 노드와 부모 노드를 서로 비교한다.
+3. 규칙에 맞으면 그대로 두고, 그렇지 않으면 부모와 교환한다.
+4. 규칙에 맞을 때까지 3번 과정을 반복한다.
+
+#### 5.2 데이터 삭제
+![](https://velog.velcdn.com/images/cil05265/post/6c7acfaf-e68a-4b18-b6cd-0d74ccc789fa/image.png)
+1. 루트 노드를 제거한다.
+2. 루트 자리에 가장 마지막 노드를 삽입한다.
+3. 올라간 노드와 그의 자식 노드(들)와 비교한다.
+4. 조건에 만족하면 그대로 두고, 그렇지 않으면 자식과 교환한다.
+- 최대 힙
+    - 부모보다 더 큰 자식이 없으면 교환하지 않고 끝낸다.
+    - 부모보다 더 큰 자식이 하나만 있으면 그 자식하고 교환하면 된다.
+    - 부모보다 더 큰 자식이 둘 있으면 자식들 중 큰 값과 교환한다.
+
+- 최소 힙
+    - 부모보다 더 작은 자식이 없으면 교환하지 않고 끝낸다.
+    - 부모보다 더 작은 자식이 하나만 있으면 그 자식하고 교환하면 된다.
+    - 부모보다 더 작은 자식이 둘 있으면 자식들 중 작은 값과 교환한다.
+5. 조건을 만족할 때까지 4의 과정을 반복한다.
+
+### 6. 힙의 표현
+![](https://velog.velcdn.com/images/cil05265/post/dae63870-a8dc-4d7d-860e-cd1517e56e29/image.png)
+
+
+- 이진 힙은 **완전 이진 트리(Complete Binary Tree)로서** , 배열로 표현하기 매우 좋은 구조다. 트리의 배열 표현의 경우 계산을 편하게 하기 위해 **인덱스는 1부터 사용한다.**
+- 해당 노드의 인덱스를 알면 깊이가 얼마인지, 부모와 자식 노드가 배열 어디에 위치하는지 바로 알아낼 수 있다. **깊이는 1, 2, 4, 8, ... 순으로 2배씩 증가** 하며, 인덱스는 1부터 시작했기 때문에 부모/자식 노드의 위치는 각각 **부모 i-1/2** , **왼쪽 자식 2i** , **오른쪽 자식 2i+1** 의 간단한 수식으로 계산할 수 있다.
+- 물론 꼭 완전 이진 형태가 아니어도 비어있는 위치는 얼마든지 널(Null)로 표현할 수 있기 때문에, 사실상 모든 트리는 배열로 표현이 가능하다.
+- 힙의 형태를 보면 **최대 힙의 경우 루트가 항상 최댓값이고** , **최소 힙의 경우 루트가 항상 최솟값** 임을 알 수 있다.
+- 이를 이용하여 **우선순위 큐(priority queue)** 를 구현하거나, **힙 정렬(heap sort)** 을 만드는 등의 일을 할 수 있다.
+
+### 7. 힙 알고리즘 구현
+
+### 힙 관련 백준 문제
+1. 최소 힙
+- 문제
+![](https://velog.velcdn.com/images/cil05265/post/512b0452-bde0-4489-a86d-5e150c6852eb/image.png)
+
+- 코드
+```python
+import sys
+import heapq
+
+n = int(sys.stdin.readline())
+heap = [] # 배열
+
+# 연산의 개수만큼 반복한다.
+for i in range(n):
+    x = int(sys.stdin.readline())
+
+    # x가 0이라면 배열에서 가장 작은 값을 출력한다.
+    if x == 0:
+
+        # 배열이 비어 있으면 0을 출력한다.
+        if heap:
+            print(heapq.heappop(heap))
+        else:
+            print(0)
+
+    # x가 0이 아니라면 배열에 x를 힙 푸시한다.
+    else:
+        heapq.heappush(heap, x)
+```
+
+2. 최대 힙
+
+- 문제
+![](https://velog.velcdn.com/images/cil05265/post/a4c64d7d-4401-4bea-951a-bf87755c983f/image.png)
+
+- 코드
+```python
+import sys
+import heapq
+
+n= int(sys.stdin.readline())
+heap = []
+for _ in range(n) :
+    x = int(sys.stdin.readline())
+    if x :
+        heapq.heappush(heap, (-x, x))
+    else :
+        if len(heap) >= 1 :
+            print[heapq.heappop(heap](1))
+        else :
+            print(0)
+```
+3. 절댓값 힙
+- 문제
+![](https://velog.velcdn.com/images/cil05265/post/b1cb4fbe-b3d4-4d24-8ca5-eecbd6e8bead/image.png)
+
+
+- 코드
+
+```python
+import sys
+import heapq
+
+numbers = int(sys.stdin.readline())
+heap = []
+
+for _ in range(numbers):
+    num = int(sys.stdin.readline())
+    if num != 0:
+        heapq.heappush(heap, (abs(num), num))
+    else:
+        try:
+            print[heapq.heappop(heap](1))
+        except:
+            print(0)
+```
