@@ -146,6 +146,7 @@ def deleteMax(self):
         return None
 ```
 #### 7.3 전체코드
+![](https://velog.velcdn.com/images/cil05265/post/a0bf87b0-1b5d-4e9f-a150-a3d049125c92/image.jpeg)
 
 ### 8. 힙 관련 백준 문제
 1. 최소 힙
