@@ -121,8 +121,33 @@
 - 이를 이용하여 **우선순위 큐(priority queue)** 를 구현하거나, **힙 정렬(heap sort)** 을 만드는 등의 일을 할 수 있다.
 
 ### 7. 힙 알고리즘 구현
+#### 7.1 힙에 원소 삽입하기
+```python
+def insert(self, x): #x는 삽입할 원소
+    i = len(self.__A)
+    self.__A[i] = x
+    parent = (i-1) //2
+    while i>0 and A[i] > A[parent]: #부모의 값과 비교해서 힙의 특성을 깨면 자리를 맞바꿈
+        self.__A[i], self.__A[parent] = self.__A[parent], self.__A[i]
+        i = parent
+        parent = (i-1) // 2
+```
 
-### 힙 관련 백준 문제
+#### 7.2 힙에서 원소 삭제하기
+
+```python
+def deleteMax(self):
+    if (not self.isEmpty()):
+        max = self.__A[0]
+        self.__A[0] = self.__A.pop()
+        self.percolateDown(8)
+        return max
+    else:
+        return None
+```
+#### 7.3 전체코드
+
+### 8. 힙 관련 백준 문제
 1. 최소 힙
 - 문제
 ![](https://velog.velcdn.com/images/cil05265/post/512b0452-bde0-4489-a86d-5e150c6852eb/image.png)
@@ -200,6 +225,6 @@ for _ in range(numbers):
             print(0)
 ```
 
-### 여담
+### 9. 여담
 ![](https://velog.velcdn.com/images/cil05265/post/ee96d8f1-9a96-4bea-bcc4-e90a19050702/image.png)
 - **골드** 달성했습니다!!
