@@ -1,6 +1,7 @@
 import sys
 
 a,b = map(int,sys.stdin.readiline().split())
+
 r = 1
 while(b!=a):
     r+=1
