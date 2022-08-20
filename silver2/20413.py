@@ -1,6 +1,8 @@
-n = int(input())
-s, g, p, d = list(map(int, input().split()))
-tear = input()
+import sys
+
+n = int(sys.stdin.readline())
+s, g, p, d = list(map(int, sys.stdin.readline().split()))
+tear = sys.stdin.readline()
 sum = 0
 prev = 0
 for i in range(n):
