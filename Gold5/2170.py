@@ -1,4 +1,3 @@
-from re import X
 import sys
 
 n = int(sys.stdin.readline())
@@ -20,7 +19,7 @@ for i in range(1, n):
     elif lines[i][0] <= y < lines[i][1]:
         y = lines[i][1]
     
-    elif right < lines[i][0]:
+    elif y < lines[i][0]:
         ans += y - x
         x = lines[i][0]
         y = lines[i][1]
