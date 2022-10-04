@@ -1,16 +1,18 @@
-import sys
+def file_clean(n):
+    ans = {}
+    for _ in range(n):
 
-n = int(sys.stdin.readline())
+        # 입력받은 문자에서 확장자만 저장하자.
+        split_s = input().split(".")[1]
 
-file = dict()
-for _ in range(n):
-    extend = (sys.stdin.readline().split('.'))[1]
-    if not extend in file:
-        file[extend] = 1
-    else:
-        file[extend] += 1
+        # 확장자가 없으면 0으로 초기화한 후 1 더하고, 있으면 그냥 1 더하자.
+        ans.setdefault(split_s, 0)
+        ans[split_s] += 1
 
-sort_file = sorted(file.items())
+    # 확장자 오름차순 정렬
+    for k, v in sorted(ans.items(), key=lambda x: x[0]):
+        print(k, v)
 
-for key, value in sort_file:
-    print(key.rstrip(), value)
+
+n = int(input())
+file_clean(n)
