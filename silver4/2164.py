@@ -1,11 +1,13 @@
 from collections import deque
-n = int(input())
-q = deque()
-for i in range(1,n+1):
-    q.append(i)
- 
-while(len(q)!=1):
-    q.popleft() # 제일 위 카드 버리기
-    q.append(q.popleft()) # 제일 위 카드 아래로 옮기기
- 
-print(q[0])
+import sys
+
+dq = deque()
+N = int(sys.stdin.readline())
+for i in range(1, N+1):
+    dq.append(i)
+
+while len(dq) != 1:
+    dq.popleft()
+    dq.append(dq.popleft())
+    
+print(dq[0])
