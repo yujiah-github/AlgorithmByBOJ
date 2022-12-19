@@ -1,5 +1,11 @@
-## Python 기본, 중급 문법 정리
+# Python 기본, 중급 문법 정리
 - 알고리즘 문제 풀이 시, 더 효율적으로 문제를 풀기 위함
+
+---
+## 목차
+1. [Python Comprehension](#1-list-comprehension)
+2. [sort()와 sorted()의 차이](#sort와-sorted의-차이)
+---
 
 ###  Python Comprehension
 - Python의 Comprehension은 한 명령문이 다른 명령문으로부터 변형되어 구축될 수 있게한 기능이다. 
@@ -55,4 +61,38 @@ def isodd(val):
 
 mydict = {x:x*x for x in range(101) if isodd(x)}
 print(mydict)
+```
+
+### sort()와 sorted()의 차이
+#### sort()
+- 리스트 메서드에서 정렬을 하는 것이다.
+- 원래의 목록에 영향이 있다.
+
+```python
+a = [1,3,2,5,4]
+a.sort()
+print(a)
+# [1,2,3,4,5]
+```
+##### 내림차순으로 정렬할 때는 해당 방법을 사용한다.
+
+```python
+a = [1,3,2,5,4]
+a.sort(reverse = True)
+print(a)
+# [5,4,3,2,1]
+```
+
+#### sorted()
+- 파이썬 표준 내장함수로써 정렬을 하는 것이다.
+- 새로운 정렬 결과를 반환한다. 원래 목록에 영향을 끼치지 않는다.
+
+##### 내림차순으로 정렬할 때는 해당 방법을 사용한다
+
+```python
+b = [1,3,2,5,4]
+result = sorted(b, reverse = True)
+print(result)
+print(b)
+# [5,4,3,2,1]
 ```
