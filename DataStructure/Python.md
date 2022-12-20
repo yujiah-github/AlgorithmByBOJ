@@ -5,6 +5,7 @@
 ## 목차
 1. [Python Comprehension](#1-list-comprehension)
 2. [sort()와 sorted()의 차이](#sort와-sorted의-차이)
+3. [Python 자료형 정리](#python-자료형-정리)
 ---
 
 ###  Python Comprehension
@@ -95,4 +96,66 @@ result = sorted(b, reverse = True)
 print(result)
 print(b)
 # [5,4,3,2,1]
+```
+
+### Python 자료형 정리
+|분류 | 타입 | 특징 | 예시 |
+|----|----|----|----|
+|시퀀스(sequence) |리스트(list)| 순서가 있고, 가변(mutable) |[1, 2, 3]
+|시퀀스(sequence) |튜플(tuple) |순서가 있고, 불변(immutable) |(1, 2, 3)
+|세트(set)| 세트(set)| 순서가 없고, 중복을 허용하지 않음 |{1, 2, 3} |
+|맵(map) | 딕셔너리(dictionary)| 순서가 없고, key/value 쌍으로 이루어짐| {'a': 1, 'b': 2, 'c': 3}|
+
+#### 리스트(List)
+- 순서가 있고 변할 수 있다.
+- 따라서 다양한 종류의 내장 메서드를 가지고 있다.
+
+```python
+len(list) : 리스트의 전체 길이
+max(list) : 리스트 안에 있는 요소 중에서 최대값 반환 (문자인 경우 알파벳 순서 기준)
+min(list) : 리스트 안에 있는 요소 중에서 최소값 반환 (문자인 경우 알파벳 순서 기준)
+list(seq) : 튜플을 리스트 자료형으로 변환
+list.append(obj) : 기존 리스트에 1개의 요소를 이어 붙이기
+list.extend(seq) : 기존 리스트에 다른 리스트를 이어 붙이기
+list.count(obj) : 리스트 안에 obj 가 몇 개 들어있는지 세어서 개수를 반환
+list.index(obj) : 리스트에서 obj 요소 값이 있는 가장 작은 index 값 반환
+list.insert(index, obj) : 기존 리스트의 index 위치에 obj 값을 삽입
+list.pop(obj=list[-1]) : 기존 리스트에서 마지막 요소를 제거하고, 제거된 마지막 요소를 반환
+list.remove(obj) : 기존 리스트에서 remove(obj) 메소드 안의 obj 객체를 제거
+list.reverse() : 리스트의 객체를 리스트 안에서 순서를 반대로 뒤집기
+list.sort() : 리스트의 객체를 리스트 안에서 순서대로 정렬하기 (디폴트 오름차순)
+```
+
+
+#### 튜플(Tuple)
+- 리스트와 달리 순서가 있고 변하지 않는다.
+- 따라서 리스트보다 내장 함수의 수가 현저히 적은 편이다.
+- 슬라이싱 하는 방법은 리스트와 동일함.
+
+```python
+len(tuple) #튜플의 길이
+max(tuple) #튜플의 최댓값
+min(tuple) #튜플의 최솟값
+tuple(seq) #시퀀스를 튜플화
+tuple.count() #튜플의 개수세기
+tuple.index() #튜플의 인덱스 반환
+```
+
+#### 세트(Set)
+
+#### 딕셔너리(Dictionary)
+
+```python
+len(dict): 사전의 총 길이 (total length of Dictionary)
+str(dict): 사전을 문자열로 반환 (string representation of a Dictionary)
+type(variable): 입력 변수의 유형 반환 (returns the type of the passed variable)
+dict.keys(): 사전의 키 목록
+dict.values(): 사전의 값 목록
+dict.items(): 사전의 (키, 값) 튜플 목록
+dict.clear(): 사전의 모든 {키, 값} 셋 제거
+dict.copy(): 사전의 {키 : 값} 셋 복사
+dict.fromkeys(seq, value): seq, value 셋으로 신규 사전 생성
+dict.get(key, default=None): 키에 할당된 값 반환
+dict.setdefault(key, default=None) : 키에 할당된 값 반환
+dict.update(dict2): 기존 사전에 새로운 사전 dict2 추가
 ```
