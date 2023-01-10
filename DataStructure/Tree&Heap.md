@@ -7,6 +7,8 @@
 - 자료구조에서 트리는 **부모가 없는 루트 노드를 정의**한다.
 
 ![](https://velog.velcdn.com/images/cil05265/post/a5db801e-8f1a-4b77-b052-b82d6bfd80f1/image.png)
+![](https://velog.velcdn.com/images/cil05265/post/cb93e901-e3da-403a-bfaf-40856cfa7755/image.png)
+
 
 - 트리는 항상 **루트(Root)** 에서부터 시작된다. 
 - 루트는 **자식(Child) 노드**를 가지며, **간선(Edge)** 으로 연결되어 있다.
