@@ -1,9 +1,8 @@
 while True:
     n = input()
-    if n == '0':
+    if n == "0":
         break
     elif n == n[::-1]:
-        print('yes')
+        print("yes")
     else:
-        print('no')
-             
+        print("no")
