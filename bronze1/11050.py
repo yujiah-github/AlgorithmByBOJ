@@ -1,3 +1,4 @@
-import math, sys
-a, b = map(int, sys.stdin.readline().split())
-print(math.comb(a,b))
+import math
+
+N,K = map(int, input().split())
+print(math.comb(N,K))
