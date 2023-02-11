@@ -1,6 +1,9 @@
-t = int(input())
+import sys
+
+t = int(sys.stdin.readline())
+
 for i in range(t):
-    h, w, n = map(int, input().split())
+    h, w, n = map(int, sys.stdin.readline().split())
     f = 0
     ho = 0
     if n % h == 0:
